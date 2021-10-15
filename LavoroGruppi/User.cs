@@ -18,6 +18,9 @@ namespace LavoroGruppi
             Password = password;
             NomeCompleto = nomecompleto;
         }
-
+        public string Info()
+        {
+            return (Username + NomeCompleto + Password);
+        }
     }
 }
