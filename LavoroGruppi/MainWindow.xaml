@@ -28,6 +28,7 @@
         <TextBox Grid.Row="0" Grid.Column="1"/>
         <TextBox Grid.Row="1" Grid.Column="1"/>
         <Button Grid.Row="2" Grid.Column="1" Content="Accedi"/>
+        <CheckBox Grid.Row="2" Grid.Column="0" Content="Ricorda Password" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="5"/>
 
     </Grid>
 </Window>
